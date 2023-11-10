@@ -1,0 +1,52 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.hero-mid {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5rem;
+}
+.hero-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 555px) {
+  .hero-text h1 {
+    padding: 10px 20px;
+    font-size: 3.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.8rem;
+    padding: 0 0 2rem 0;
+  }
+}

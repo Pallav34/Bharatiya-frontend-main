@@ -4,10 +4,8 @@ const year = currentDate.getFullYear();
 function Footer() {
   return (
     <>
-      <div className="footer">
+      
         <div className="footer-content">
-          <h3>BHARATIYA</h3>
-          <p>two lines for website</p>
           <ul class="socials">
             <li>
               <a href="/">
@@ -30,28 +28,10 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </div>
-
-        <div className="footer-bottom">
           <p>
             &#169; Bhartiya powerby <a href="">Unblue</a> {year}
           </p>
-
-          <div class="footer-menu">
-            <ul class="f-menu">
-              <li>
-                <a href="/">Teams</a>
-              </li>
-              <li>
-                <a href="/">Contact Us</a>
-              </li>
-              <li>
-                <a href="/">Terms & Condition</a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
     </>
   );
 }

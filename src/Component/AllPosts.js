@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PostCard from './PostCard';
 import { server } from '../index';
 import axios from 'axios'
+import "./AllPostsStyles.css"
 const BlogList = () => {
   const [posts, setPosts] = useState([]);
 
@@ -18,13 +19,13 @@ const BlogList = () => {
 },[])
 
   return (
-    <div className="flex flex-wrap">
-      {posts.map((post) => (
-        <div key={post._id} className="w-1/2 p-4">
-          <PostCard post={post} />
-        </div>
-      ))}
-    </div>
+    <div className="content-container">
+    {posts.map((post) => (
+      <div key={post._id} className="postcards">
+        <PostCard post={post} />
+      </div>
+    ))}
+  </div>
   );
 };
 

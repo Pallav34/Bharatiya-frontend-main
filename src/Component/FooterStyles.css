@@ -2,24 +2,23 @@ html {
   font-size: 16px;
 }
 
-.footer {
+
+.footer-content {
   position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   background: #111;
-  height: 60%;
-  width: 100vw;
-  padding-top: 2.5rem; /* 40px / 16px = 2.5rem */
+  height: 40%;
+  width: 100%;
+  padding-top: 3rem; /* 40px / 16px = 2.5rem */
   color: #fff;
-}
-
-.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding-top: 0.1rem;
 }
 
 .footer-content h3 {
@@ -42,11 +41,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .socials li {
-  margin: 0 0.625rem; /* 10px / 16px = 0.625rem */
+  margin: 0 0.725rem; /* 10px / 16px = 0.625rem */
 }
 
 .socials a {
@@ -58,7 +57,7 @@ html {
 }
 
 .socials a i {
-  font-size: 1.25rem; /* 20px / 16px = 1.25rem */
+  font-size: 1.8rem; /* 20px / 16px = 1.25rem */
   width: 1.25rem; /* 20px / 16px = 1.25rem */
   transition: color 0.025s ease; /* 0.4s / 16px = 0.025s */
 }
@@ -67,58 +66,21 @@ html {
   color: aqua;
 }
 
-.footer-bottom {
-  background: #000;
-  width: 100vw;
-  padding: 1.25rem 1.25rem 2.5rem 1.25rem; /* 20px / 16px = 1.25rem, 40px / 16px = 2.5rem */
-  text-align: center;
+.footer-content p a{
+  color: blue;
 }
 
-.footer-bottom p {
-  float: left;
-  font-size: 0.875rem; /* 14px / 16px = 0.875rem */
-  word-spacing: 0.125rem; /* 2px / 16px = 0.125rem */
-  text-transform: capitalize;
-}
-
-.footer-bottom p a {
-  color: #44bae8;
-  font-size: 1rem; /* 16px / 16px = 1rem */
-  text-decoration: none;
-}
-
-.footer-bottom span {
-  text-transform: uppercase;
-  opacity: 0.4;
-  font-weight: 200;
-}
-
-.footer-menu {
-  float: right;
-}
-
-.footer-menu ul {
-  display: flex;
-}
-
-.footer-menu ul li {
-  padding-right: 0.625rem; /* 10px / 16px = 0.625rem */
-  display: block;
-}
-
-.footer-menu ul li a {
-  color: #cfd2d6;
-  text-decoration: none;
-}
-
-.footer-menu ul li a:hover {
-  color: #27bcda;
-}
-
-@media (max-width: 555px) {
+@media (max-width: 450px) {
+  .footer-menu{
+    background-color: #000;
+  }
+  
+  
   .footer-menu ul {
-    display: flex;
+    
     margin-top: 0.625rem; /* 10px / 16px = 0.625rem */
     margin-bottom: 1.25rem; /* 20px / 16px = 1.25rem */
+    
+
   }
 }

@@ -37,6 +37,7 @@ img {
 .hero-text p {
   font-size: 1rem;
   color: #fff;
+  padding-left: 4rem;
 }
 
 @media screen and (max-width: 555px) {
@@ -48,5 +49,12 @@ img {
   .hero-text p {
     font-size: 0.8rem;
     padding: 0 0 2rem 0;
+    padding-left: 6rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
   }
 }

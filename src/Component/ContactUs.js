@@ -10,9 +10,10 @@ function ContactUs() {
         </p>
 
         <h2>Feedback Form</h2>
-        <p>
-          <a href="/">Contact Form</a>
-        </p>
+        
+        <button onclick="window.location.href='/';">
+        Contact Form</button>
+        
         <p>
           Feel free to get in touch with us if you have any questions or
           feedback.

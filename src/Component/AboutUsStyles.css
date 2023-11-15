@@ -13,23 +13,8 @@
   margin-bottom: 2rem;
 }
 
-.member-info img {
-  border-radius: 50%;
-  width: 8rem;
-}
-.About-Container {
-  position: relative;
-  margin-top: 2rem;
-  padding-left: 2rem;
-  text-align: start;
-}
-
-.team-members {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  margin-bottom: 2rem;
+.headings-title{
+  font-size: 2rem;
 }
 
 .member-info img {

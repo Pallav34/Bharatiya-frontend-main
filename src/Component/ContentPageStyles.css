@@ -61,3 +61,10 @@ text-align: center;
 .bottomsection{
   margin-top: 13rem;
 }
+
+@media screen and (max-width: 850px) {
+  .bottomsection{
+    margin-top: 16rem;
+  }
+
+}

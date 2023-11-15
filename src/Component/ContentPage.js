@@ -23,11 +23,11 @@ const ContentPage = () => {
   }, [contentId]);
 
   return (
-
-   
+   <>
+   <Navbar post={Navbar}/>
     <div className="content-body">
-    <Navbar post={Navbar} />
     <section className="uppersection">
+    
      <a href="index.html" class="back-home">Back To Home</a>
       <h1>{post.title}</h1>
       
@@ -40,8 +40,10 @@ const ContentPage = () => {
       {/* Other content fields can be rendered as normal */}
       <p>{post.otherField}</p>
       </section>
-      <Footer post={Footer} />
+     
     </div>
+     <Footer post={Footer}/>
+    </>
   );
 };
 

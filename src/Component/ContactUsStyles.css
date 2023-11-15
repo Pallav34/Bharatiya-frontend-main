@@ -1,6 +1,7 @@
 .ico i {
   font-size: 2rem;
   margin-right: 1rem;
+  margin-left: 1rem;
   margin-top: 1.5rem;
   color: #000;
 }
@@ -10,9 +11,15 @@
 }
 
 .container {
+  display: inline;
   text-align: center;
   margin-top: 3rem;
-  padding-left: 1rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+
+.email{
+  color: #01959a;
 }
 
 .container button{

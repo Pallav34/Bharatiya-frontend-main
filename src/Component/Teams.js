@@ -1,8 +1,8 @@
 import mem1 from "../Assets/team-member1.jpeg";
 import mem2 from "../Assets/team-member2.jpeg";
 import mem3 from "../Assets/team-member3.png";
-import mem4 from "../Assets/team-member4.jpeg";
-import mem5 from "../Assets/team-member5.jpeg";
+import mem4 from "../Assets/team-member4.jpg";
+
 
 export const Teams = [
   {
@@ -30,9 +30,9 @@ export const Teams = [
 
   {
     id: 4,
-    name: "Joysekhar Banerjee",
-    position: "Frontend-Dev",
-    linkedin: "https://www.linkedin.com/in/joysekhar-banerjee-ba70a8248/",
+    name: "Sayantan Chakrabarti",
+    position: "Content-Writer",
+    linkedin: "https://www.linkedin.com/in/sayantan-chakrabarti-35949b288",
     image: mem4
   }
 

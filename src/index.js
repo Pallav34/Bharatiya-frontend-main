@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { createContext, useState } from "react";
 import './styles.css'
 
-export const server = "https://bharatiya-backend.vercel.app/api";
+export const server = "https://bharatiya-backend-delta.vercel.app/api";
 export const Context = createContext({ isAuthenticated: false });
 
 const AppWrapper = () => {

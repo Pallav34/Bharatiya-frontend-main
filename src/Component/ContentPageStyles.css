@@ -45,6 +45,7 @@ text-align: center;
   object-position: center;
   border: 4px solid rgb(255,255,0); /* Adjust the border width as needed */
   box-sizing: border-box; /* Include the border in the element's total width and height */
+  margin-top:2rem;
 }
 
 
@@ -63,6 +64,25 @@ text-align: center;
 }
 
 @media screen and (max-width: 850px) {
+  .bottomsection{
+    margin-top: 16rem;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+  .bottomsection{
+    margin-top: 16rem;
+  }
+
+}
+@media screen and (max-width: 440px) {
+  .bottomsection{
+    margin-top: 16rem;
+  }
+
+}
+@media screen and (max-width: 360px) {
   .bottomsection{
     margin-top: 16rem;
   }

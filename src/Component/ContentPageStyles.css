@@ -63,6 +63,32 @@ text-align: center;
   margin-top: 13rem;
 }
 
+/* changes made here */
+.uppersection{
+  display: flex;
+  flex-direction: column;
+}
+.post-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+.bottomsection {
+  display: flex;
+  flex-direction: column;
+}
+.content-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 850px) {
   .bottomsection{
     margin-top: 16rem;

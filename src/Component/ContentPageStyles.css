@@ -45,6 +45,7 @@ text-align: center;
   object-position: center;
   border: 4px solid rgb(255,255,0); /* Adjust the border width as needed */
   box-sizing: border-box; /* Include the border in the element's total width and height */
+  margin-top:2rem;
 }
 
 

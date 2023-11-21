@@ -27,11 +27,12 @@ const ContentPage = () => {
    <Navbar post={Navbar}/>
     <div className="content-body">
     <section className="uppersection">
-    
-     <a href="index.html" class="back-home">Back To Home</a>
+    <div className="post-details">
+     
       <h1>{post.title}</h1>
       
       <img className="postpic" src={post.imgUrl} alt={post.title} />
+     </div>
       </section>
       {/* Render Quill content using dangerouslySetInnerHTML */}
       <section className="bottomsection">

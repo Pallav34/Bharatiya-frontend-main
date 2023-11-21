@@ -72,19 +72,19 @@ text-align: center;
 
 @media screen and (max-width: 560px) {
   .bottomsection{
-    margin-top: 16rem;
+    margin-top: 20rem;
   }
 
 }
 @media screen and (max-width: 440px) {
   .bottomsection{
-    margin-top: 16rem;
+    margin-top: 20rem;
   }
 
 }
 @media screen and (max-width: 360px) {
   .bottomsection{
-    margin-top: 16rem;
+    margin-top: 20rem;
   }
 
 }
